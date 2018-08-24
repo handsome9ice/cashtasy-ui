@@ -1,0 +1,394 @@
+/*
+  Cashtasy-Style
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-display: #fff;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 100% relative;
+    position: fixed;
+    background: #31394D;
+    color: #fff;
+}
+
+.img-responsive {
+    height: 50px;
+}
+
+.home-button {
+    width: 210px;
+    border-radius: 5px;
+    background-color: #31394D;
+    color: #fff;
+}
+
+.side-home-button {
+    background-color: #31394D;
+}
+
+.side-details {
+    color: #ffffff;
+}
+
+output {
+    font-size: 12px;
+}
+
+.sidebar-header {
+    padding-bottom: 15px;
+}
+
+.line-padding{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.side-line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    Home page STYLE
+----------------------------------------------------- */
+
+#home {
+    margin-left: 260px;
+}
+
+/*--------------------
+    card-section
+---------------------*/
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+.navbar {
+    margin-top: 0px;
+}
+
+.home-title{
+    margin-top: -20px;
+    font-size: 60px;
+}
+
+.card-section {
+    padding-left: 50px;
+}
+
+.cashtasy-card {
+    width: 400px;
+}
+
+.add-card-link {
+    padding-left:130px;
+}
+
+.add-card {
+    color: #31394D;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.vertical-line {
+    height:200px;
+    width:1px; 
+    background:#aaa;
+}
+
+.page-vertical-line {
+    margin-top: 180px;
+    padding-left: 80px;
+}
+
+/*--------------------
+    Withdraw-section
+---------------------*/
+
+.withdraw-section-title {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.withdraw-section-form {
+    height: 310px;
+    width: 350px;
+    padding-right: 100px;
+    background-color: #fff;
+}
+
+.withdraw-form-control {
+    border: none;
+    border-bottom: 1px solid;
+    width: 320px;
+    margin-left: 15px;
+}
+
+.withdraw-button {
+    height: 40px;
+    width: 320px;
+    margin-left: 15px;
+    background-color: #31394D;
+    color: #fff;
+}
+
+/*--------------------
+    Deposit-section
+---------------------*/
+.lower-row {
+    border-bottom: 500px;
+}
+
+deposit-section {
+    padding-bottom: 250px;
+}
+
+.deposit-section-title {
+    text-align: center;
+}
+
+.deposit-section-form {
+    height: 370px;
+    width: 350px;
+    background-color: #fff;
+    margin-left: 50px;
+    padding-top: 45px;
+    padding-bottom: 250px;
+}
+
+.deposit-form-control {
+    border: none;
+    border-bottom: 1px solid;
+    width: 320px;
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+
+.deposit-button {
+    height: 40px;
+    width: 320px;
+    margin-left: 15px;
+    background-color: #31394D;
+    color: #fff;
+}
+
+/*--------------------
+    Paybills-section
+---------------------*/
+
+.pay-bills-section-title {
+    text-align: center;
+}
+
+.pay-bills-section-form {
+    height: 292px;
+    width: 340px;
+    background-color: #fff;
+    padding-top: 45px;
+}
+
+.pay-bills-form-control {
+    border: none;
+    border-bottom: 1px solid;
+    width: 320px;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.pay-bills-button {
+    height: 40px;
+    width: 320px;
+    margin-left: 15px;
+    background-color: #31394D;
+    color: #fff;
+}
+
+
+/* ---------------------------------------------------
+   Profile page STYLE
+----------------------------------------------------- */
+
+#page-profile {
+    margin-left: 260px;
+}
+
+/* ---------------------------------------------------
+  Recieve Cash page STYLE
+----------------------------------------------------- */
+
+#recieve-cash {
+    margin-left: 260px;
+}
+
+.recieve-cash-title {
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+.recieve-cash-section {
+     padding-right: 90px;
+}
+
+.recieve-cash-form {
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+}
+
+.recieve-cash-form-title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.recieve-cash-form-control {
+    border: none;
+    border-bottom: 1px solid;
+    width: 320px;
+    margin-left: 15px;
+}
+
+.recieve-cash-form-control-mini {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.recieve-cash-button {
+    height: 40px;
+    width: 320px;
+    margin-left: 15px;
+    background-color: #31394D;
+    color: #fff;
+}
+
+/* ---------------------------------------------------
+ Give Cash page STYLE
+----------------------------------------------------- */
+
+#give-cash {
+    margin-left: 260px;
+}
+
+.give-cash-title {
+    font-size: 60px;
+    padding-left: 50px;
+}
+
+.give-cash-section {
+     padding-right: 90px;
+}
+
+.give-cash-form {
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+}
+
+.give-cash-form-title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.give-cash-form-control {
+    border: none;
+    border-bottom: 1px solid;
+    width: 320px;
+    margin-left: 15px;
+}
+
+.give-cash-form-control-mini {
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.give-cash-button {
+    height: 40px;
+    width: 320px;
+    margin-left: 15px;
+    background-color: #31394D;
+    color: #fff;
+}
+
+/* ---------------------------------------------------
+  transaction page STYLE
+----------------------------------------------------- */
+
+#transaction-page {
+    margin-left: 260px;
+}
+
+.transaction-page-title {
+    font-size: 60px;
+    padding-left: 40px;
+}
+
+.transacton-page-section-title {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.transaction-page-section {
+    height: 283px;
+    width: 1050px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.transaction-page-layout {
+    justify-content: center;
+    height: 200px;
+    background-color: #fff;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #C4C4C4;
+    margin-top: 20px;
+    margin-left: 28px;
+}
+
+.transaction-page-layout > p {
+    padding-top: 50px;
+    text-align: center;
+}
